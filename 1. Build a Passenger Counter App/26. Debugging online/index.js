@@ -8,8 +8,10 @@ function increment() {
 }
 
 function save() {
-    let countStr = count + " - "
-    saveEl.textContent += countStr
+    let countStr = count + " - ";
+    saveEl.textContent += countStr;  //textContent shows blankspaces also, innerText does
+    //not
+
 }
 
 // Google:
