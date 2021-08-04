@@ -15,10 +15,10 @@ function startGame() {
         message = "Do you want to draw a new card?"
     } else if (sum === 21) {
         message = "You've got Blackjack!"
-        hasBlackJack = true
+        hasBlackJack = true;
     } else {
         message = "You're out of the game!"
-        isAlive = false
+        isAlive = false;
     }
     messageEl.textContent = message
 }
@@ -27,8 +27,9 @@ function startGame() {
 function newCard() {
     console.log("Drawing a new card from the deck!")
     // 1. Create a card variable, and hard code its value to a number (2-11)
-    
+    let card = 7;
     // 2. Add the new card to the sum variable
-    
+    sum = sum + card;
     // 3. Call startGame()
+    startGame();
 }

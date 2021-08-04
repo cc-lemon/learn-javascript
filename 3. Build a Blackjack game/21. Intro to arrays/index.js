@@ -6,6 +6,7 @@ let featuredPosts = [
     "I've just relaunched my portfolio"
 ]
 
+
 // Create an array that lists your i.e. experience, education, licenses, skills or similar
 // The items of the array should be strings
-
+let myPortfolio ["Scrum master at N", "Hyper Island student", "KTH student"];
