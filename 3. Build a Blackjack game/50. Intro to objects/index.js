@@ -4,7 +4,7 @@
 let course = {
     title: "Learn CSS Grid for free",
     lessons: 16,
-    creator: "Per Harald Borgen",
+    creator: "Per H Borgen",
     length: 63,
     level: 2,
     isFree: true,
@@ -13,5 +13,3 @@ let course = {
 
 
 console.log( course.tags )
-
-

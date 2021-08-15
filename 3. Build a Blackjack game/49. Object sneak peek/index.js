@@ -7,9 +7,9 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
-let player = {
-    name: "Per",
-    chips: 145
+let player = {  //Object data type
+    name: "Chris",  //name is the key, "Chris" is the value
+    chips: 145  //No comma on last object
 }
 
 
@@ -41,7 +41,7 @@ function renderGame() {
     for (let i = 0; i < cards.length; i++) {
         cardsEl.textContent += cards[i] + " "
     }
-    
+
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
@@ -61,6 +61,6 @@ function newCard() {
         let card = getRandomCard()
         sum += card
         cards.push(card)
-        renderGame()        
+        renderGame()
     }
 }
