@@ -1,5 +1,18 @@
 let myLeads = ["www.awesomelead.com"]
 
+//myLeads = JSON.parse(myLeads);
+
+//myLeads.push("epicweb.io");
+//Or
+
+myLeads.push("epic.io");
+myLeads = JSON.stringify(myLeads);
+
+console.log(typeof myLeads);
+console.log(myLeads);
+
+
+
 
 
 const inputEl = document.getElementById("input-el")
@@ -23,5 +36,5 @@ function renderLeads() {
             </li>
         `
     }
-    ulEl.innerHTML = listItems  
+    ulEl.innerHTML = listItems
 }

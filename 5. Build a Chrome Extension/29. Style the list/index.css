@@ -23,13 +23,15 @@ button {
 
 /* STYLE THE LIST ACCORDING TO THE DESIGN */
 ul {
-    
+  list-style-type: none; /* Remove bullets */
+  padding-left:0; /* Remove padding */
+  margin-top:1,25em;
 }
 
 li {
-    
+  margin-top: 5px;
 }
 
-a {
-
+li a {
+  color: #5f9341;
 }
